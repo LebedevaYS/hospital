@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="doctor3.css">
+		</head>
+		<body>
+			<div class="div">
+				<form action='doctor3.php' method='POST'>
+					<p class="time">Выберите время приема:</p>
+					<p class="list"><input list="time" name="time">
+				 	<datalist id="time">
+						<option value="12:32"></option>
+						<option value="12:38"></option>
+						<option value="12:43"></option>
+					</datalist></p>	
+					<p class="name">Имя</p>
+					<textarea name='name' class="textarea"></textarea>
+					<p class="lastname">Фамилия</p>
+					<textarea name='lastname' class="textarea"></textarea>
+					<p class="date">Дата Рождения</p>	
+					<textarea name='date' class="textarea">2001-01-01</textarea>
+					<p class="emaile">E-mail</p>
+					<textarea name='e-maile' class="textarea"></textarea>
+					<p class="phone">Номер телефона</p>
+					<textarea name='phone' class="textarea"></textarea>
+				
+					<button type='submit' class="button">Подтвердить</button>
+				</form>
+			</div>
+		</body>
+	</html>
+
+

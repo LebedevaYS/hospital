@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>1</title>
+			<style type="text/css">
+			.zagolovok {
+				margin: 1% 0% 0% 41%;
+			    font-size: 187%;
+			}
+			.spec {
+				margin: 2% 0% 0% 37%;
+			    font-size: 110%;
+			}
+			.textarea {
+				margin: 25.2656px 0px 0px 543.516px;
+			    width: 124px;
+			    height: 15px;
+			    resize: none;
+			}
+			.button {
+				width: 94px;
+			    height: 23px;
+			    margin: 4% 0% 0% 45%;
+			    display: inline;
+			}
+			.div {
+				width: 100%;
+			    background-color: #a3e1ffb3;
+			    margin: 4% 0% 0% 0%;
+			    padding: 1% 0% 3% 0%;
+			}</style>
+			<meta charset="utf-8">
+		</head>
+		<body>
+			<div class="div">
+				<p class="zagolovok">Запись к врачу</p>
+				<form action="doctor.php" method="POST">
+					<p class="spec">Специальность врача (ЛОР или Невролог):</p>
+					<input type="text" list="test" name="service"  class="textarea"></input><br>
+					<button type="submit" class="button">Подтвердить</button>
+					<datalist id="test">
+						<option>1</option>
+						<option>2</option>
+					</datalist>
+				</form>
+			</div>
+		</body>
+	</html>
