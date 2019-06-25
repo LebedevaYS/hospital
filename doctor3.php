@@ -32,11 +32,3 @@
 	}
 	
 ?>
-
-
-
-
-<!-- if () {
-		
-	echo "<p style='background-color: #a3e1ffb3; margin: 10% 0% 0% 0%; padding: 1% 0% 1% 45%; width: 100%; font-size: 25px;'>Успешно</p>";
-	} -->

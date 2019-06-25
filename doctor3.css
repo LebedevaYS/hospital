@@ -3,42 +3,42 @@
     font-size: 156%;
 }
 .list {
-	margin: 2% 0% 0% 41%;
+    margin: 2% 0% 0% 41%;
 }
 .name {
-	margin: 16px 0px 9px 585px;
+    margin: 16px 0px 9px 585px;
     font-size: 20px;
 }
 .lastname {
-	margin: 16px 0px 9px 566px;
+    margin: 16px 0px 9px 566px;
     font-size: 20px;
 }
 .date {
-	margin: 16px 0px 9px 541px;
+    margin: 16px 0px 9px 541px;
     font-size: 20px;
 }
 .emaile {
-	margin: 16px 0px 9px 585px;
+    margin: 16px 0px 9px 585px;
     font-size: 20px;
 }
 .phone {
-	margin: 16px 0px 9px 537px;
+    margin: 16px 0px 9px 537px;
     font-size: 20px;
 }
 .textarea {
-	margin: 8.2656px 0px 0px 542.516px;
+    margin: 8.2656px 0px 0px 542.516px;
     width: 125px;
     height: 21px;
     resize: none;
 }
 .button {
-	width: 94px;
+    width: 94px;
     height: 23px;
     margin: 4% 0% 0% 45%;
     display: inline;
 }
 .div {
-	width: 100%;
+    width: 100%;
     background-color: #a3e1ffb3;
     margin: 4% 0% 0% 0%;
     padding: 1% 0% 3% 0%;
